@@ -1,8 +1,8 @@
-# 🌐 David Apryansyah - Personal Portfolio & Resume
+# 🌐 David Apryansyah - Personal Portofolio & Resume
 
 Selamat datang di repository portofolio web saya! Website ini dirancang secara modern dan elegan menggunakan konsep *dark theme* dengan aksen warna teal untuk menampilkan profil profesional, pengalaman kerja, proyek pengembangan web, dan keahlian teknis saya.
 
-🚀 **Live Demo:** [https://davidaprr.github.io/portofolio.me](https://davidaprr.github.io/portofolio.me)
+🚀 **Live Demo:** [https://davidaprr.github.io/Portofolio.me](https://davidaprr.github.io/Portofolio.me)
 
 ---
 
