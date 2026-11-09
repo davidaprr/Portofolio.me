@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Apryansyah - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .a4-container {
+            width: 210mm;
+            min-height: 297mm;
+            background: white;
+            margin: 20px auto;
+            padding: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        @media print {
+            body { background: white; margin: 0; }
+            .a4-container { box-shadow: none; margin: 0; padding: 20px; width: 100%; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Print Button (Hidden when printing) -->
+    <div class="text-center pt-8 no-print">
+        <button onclick="window.print()" class="bg-blue-600 text-white px-6 py-2 rounded shadow hover:bg-blue-700 transition">
+            <i class="fas fa-print mr-2"></i> Print or Save as PDF
+        </button>
+        <p class="text-sm text-gray-500 mt-2">Make sure to enable "Background graphics" in print settings for best results.</p>
+    </div>
+
+    <!-- CV Canvas -->
+    <div class="a4-container">
+        
+        <!-- Header -->
+        <header class="border-b-2 border-gray-200 pb-6 mb-6 flex justify-between items-center">
+            <div>
+                <h1 class="text-4xl font-bold text-gray-900 tracking-tight">David Apryansyah</h1>
+                <p class="text-lg text-blue-600 font-medium mt-1">Full-Stack Web Developer & IT Enthusiast</p>
+            </div>
+            <div class="text-right text-sm text-gray-600 space-y-1">
+                <p><i class="fab fa-whatsapp w-4 text-center mr-1"></i> +62 877 3138 1408</p>
+                <p><i class="fab fa-linkedin w-4 text-center mr-1"></i> linkedin.com/in/david-apryansyah-2a069121b</p>
+                <p><i class="fab fa-github w-4 text-center mr-1"></i> github.com/davidaprr</p>
+                <p><i class="fab fa-instagram w-4 text-center mr-1"></i> @dapryann</p>
+            </div>
+        </header>
+
+        <!-- Summary -->
+        <section class="mb-6">
+            <h2 class="text-xl font-bold text-gray-800 uppercase tracking-wider mb-2 border-l-4 border-blue-600 pl-2">Professional Summary</h2>
+            <p class="text-gray-700 leading-relaxed text-sm">
+                Information Systems student at Universitas Terbuka with a strong passion for full-stack web development and AI integration. Proven track record in IT support, technical engineering, and retail management. Dedicated to building efficient, scalable, and elegant digital experiences utilizing modern frameworks and local AI agents.
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="mb-6">
+            <h2 class="text-xl font-bold text-gray-800 uppercase tracking-wider mb-4 border-l-4 border-blue-600 pl-2">Work Experience</h2>
+            
+            <div class="space-y-4">
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-semibold text-gray-900">Staff Sales Engineer</h3>
+                        <span class="text-sm font-medium text-gray-500">PT. Indonesia Steel Tube Works</span>
+                    </div>
+                    <ul class="list-disc list-inside text-sm text-gray-700 mt-1 space-y-0.5">
+                        <li>Provided technical product presentations to clients and partners.</li>
+                        <li>Managed client relations and assisted in technical sales to ensure optimal solutions.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-semibold text-gray-900">Staff IT Intern</h3>
+                        <span class="text-sm font-medium text-gray-500">PT. Indonesia Steel Tube Works</span>
+                    </div>
+                    <ul class="list-disc list-inside text-sm text-gray-700 mt-1 space-y-0.5">
+                        <li>Assisted in IT data migration projects maintaining data integrity and security.</li>
+                        <li>Provided daily software troubleshooting and technical support for company staff.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-semibold text-gray-900">Technician</h3>
+                        <span class="text-sm font-medium text-gray-500">PT. Bintang Maraga Lintas Media (XL Vendor)</span>
+                    </div>
+                    <ul class="list-disc list-inside text-sm text-gray-700 mt-1 space-y-0.5">
+                        <li>Handled telecommunication infrastructure maintenance.</li>
+                        <li>Conducted network troubleshooting to ensure stable and reliable connections.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-semibold text-gray-900">Store Junior Leader</h3>
+                        <span class="text-sm font-medium text-gray-500">PT. Indomarco Prismatama</span>
+                    </div>
+                    <ul class="list-disc list-inside text-sm text-gray-700 mt-1 space-y-0.5">
+                        <li>Supervised store shifts and managed team performance on the floor.</li>
+                        <li>Maintained sales targets and ensured operational efficiency.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-semibold text-gray-900">Store Crew</h3>
+                        <span class="text-sm font-medium text-gray-500">PT. Albany Corona Lestari</span>
+                    </div>
+                    <ul class="list-disc list-inside text-sm text-gray-700 mt-1 space-y-0.5">
+                        <li>Managed daily store operations, inventory, and customer service.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-semibold text-gray-900">Technician</h3>
+                        <span class="text-sm font-medium text-gray-500">PT. Solusi Mitra Tama</span>
+                    </div>
+                    <ul class="list-disc list-inside text-sm text-gray-700 mt-1 space-y-0.5">
+                        <li>Conducted hardware maintenance, installations, and system troubleshooting.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-6">
+            <h2 class="text-xl font-bold text-gray-800 uppercase tracking-wider mb-4 border-l-4 border-blue-600 pl-2">Projects</h2>
+            
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-gray-50 p-3 rounded border border-gray-200">
+                    <h3 class="font-semibold text-gray-900 text-sm mb-1">3D Anatomy E-Learning</h3>
+                    <p class="text-xs text-blue-600 font-mono mb-2">React, Vite, Three.js</p>
+                    <p class="text-xs text-gray-700">Interactive educational application featuring 3D models of human anatomy for medical and biological studies.</p>
+                </div>
+                <div class="bg-gray-50 p-3 rounded border border-gray-200">
+                    <h3 class="font-semibold text-gray-900 text-sm mb-1">NB Studio Bekasi</h3>
+                    <p class="text-xs text-blue-600 font-mono mb-2">Node.js, Express, MySQL</p>
+                    <p class="text-xs text-gray-700">Comprehensive web application streamlining booking, portfolio showcasing, and dynamic client management.</p>
+                </div>
+                <div class="bg-gray-50 p-3 rounded border border-gray-200 col-span-2">
+                    <h3 class="font-semibold text-gray-900 text-sm mb-1">Hapsah Room</h3>
+                    <p class="text-xs text-blue-600 font-mono mb-2">PHP, MySQL, Bootstrap</p>
+                    <p class="text-xs text-gray-700">Management system focusing on UI elegance and efficient data handling for apartment reservations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Skills -->
+        <div class="grid grid-cols-2 gap-6">
+            <section>
+                <h2 class="text-xl font-bold text-gray-800 uppercase tracking-wider mb-2 border-l-4 border-blue-600 pl-2">Education</h2>
+                <div>
+                    <h3 class="font-semibold text-gray-900">Bachelor of Information Systems</h3>
+                    <p class="text-sm text-gray-600">Universitas Terbuka (Currently Pursuing)</p>
+                </div>
+            </section>
+            
+            <section>
+                <h2 class="text-xl font-bold text-gray-800 uppercase tracking-wider mb-2 border-l-4 border-blue-600 pl-2">Skills</h2>
+                <div class="flex flex-wrap gap-2 text-sm text-gray-700">
+                    <span class="bg-gray-100 px-2 py-1 rounded">HTML/CSS</span>
+                    <span class="bg-gray-100 px-2 py-1 rounded">JavaScript</span>
+                    <span class="bg-gray-100 px-2 py-1 rounded">Node.js</span>
+                    <span class="bg-gray-100 px-2 py-1 rounded">MySQL</span>
+                    <span class="bg-gray-100 px-2 py-1 rounded">React</span>
+                    <span class="bg-gray-100 px-2 py-1 rounded">MS Dynamics 365</span>
+                    <span class="bg-gray-100 px-2 py-1 rounded">Advanced Excel</span>
+                    <span class="bg-gray-100 px-2 py-1 rounded">Local AI Agents</span>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+</html>
