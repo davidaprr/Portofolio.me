@@ -28,6 +28,7 @@ Selamat datang di repository portofolio web saya! Website ini dirancang secara m
 ## 📂 Struktur Repository
 
 ```text
-├── index.html       # Halaman utama portofolio
+├── README.md        # Dokumentasi repository
 ├── cv.html          # Halaman CV / Resume format cetak
-└── README.md        # Dokumentasi repository
+└── index.html       # Halaman utama portofolio
+
